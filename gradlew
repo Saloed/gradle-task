@@ -1,4 +1,6 @@
 #!/usr/bin/env sh
+git update-index --chmod=+x gradlew
+
 
 #
 # Copyright 2015 the original author or authors.

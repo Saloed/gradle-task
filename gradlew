@@ -1,4 +1,4 @@
-git update-index --chmod=+x gradlew #!/usr/bin/env sh
+#!/usr/bin/env sh
 
 
 

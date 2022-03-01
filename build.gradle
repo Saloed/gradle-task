@@ -3,21 +3,18 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+group 'ru.spbstu'
+version 'one'
 
 repositories {
     mavenCentral()
 }
-sourceSets {
-    main {
-        java {
-            srcDirs = ['src']
-        }
-    }
-}
 dependencies {
-    testImplementation 'org.jetbrains.kotlin:kotlin-test-junit5'
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    testImplementation 'org.jetbrains.kotlin:kotlin-test-junit5:1.6.10'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10'
     implementation "com.google.guava:guava:31.0.1-jre"
+}
+test {
+    useJUnitPlatform()
+
 }

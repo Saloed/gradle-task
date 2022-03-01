@@ -6,15 +6,6 @@ repositories {
     mavenCentral()
 }
 
-sourceSets {
-    main {
-        java.srcDir("${project.rootDir}/src/main/kotlin/ru.spbstu.task")
-    }
-    test {
-        java.srcDir("${project.rootDir}/src/test/kotlin/ru.spbstu.task")
-    }
-}
-
 dependencies {
     implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
 

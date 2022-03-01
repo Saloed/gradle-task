@@ -1,4 +1,4 @@
-# Базовый репозиторий задания по системе сборки Gradle
+ # Базовый репозиторий задания по системе сборки Gradle
 
 ## Инструкция
 1. Сделайте [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) репозитория

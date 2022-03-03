@@ -5,8 +5,6 @@
  * Learn more about Gradle by exploring our samples at https://docs.gradle.org/7.1/samples
  */
 
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.6.10"
 }

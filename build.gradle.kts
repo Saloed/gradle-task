@@ -15,7 +15,3 @@ dependencies {
     implementation("com.google.guava:guava:31.0.1-jre")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5:1.6.0")
 }
-
-tasks.test {
-    useJUnitPlatform()
-}

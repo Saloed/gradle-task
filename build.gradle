@@ -12,6 +12,6 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-test-junit5")
 }
 
-tasks.test  {
+tasks.test {
     useJUnitPlatform()
 }

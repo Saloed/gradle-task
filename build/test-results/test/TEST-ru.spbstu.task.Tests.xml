@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.spbstu.task.Tests" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-05T09:27:45" hostname="meelesh" time="0.05">
+  <properties/>
+  <testcase name="test empty map()" classname="ru.spbstu.task.Tests" time="0.043"/>
+  <testcase name="test list contains all entries()" classname="ru.spbstu.task.Tests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

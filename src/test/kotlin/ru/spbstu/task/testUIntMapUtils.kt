@@ -5,6 +5,7 @@ import kotlin.test.assertEquals
 
 class Tests {
     @Test
+    
     fun `test empty map`() {
         val map = emptyMap<UInt, String>()
         assertEquals(0, map.toList("").size)

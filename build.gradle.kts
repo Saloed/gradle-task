@@ -28,9 +28,9 @@ dependencies {
 
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 }
 
-//application {
-    //mainClass.set("gradle-task.uIntMapUtils.kt")
-// }
+tasks.test{
+    useJUnitPlatform()
+}
